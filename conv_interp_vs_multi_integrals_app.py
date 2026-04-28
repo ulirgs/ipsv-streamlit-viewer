@@ -113,7 +113,7 @@ pixel_integrals = np.array(
     ]
 )
 
-fig, ax = plt.subplots(figsize=(10, 6), constrained_layout=True)
+fig, ax = plt.subplots(figsize=(10, 4.5), constrained_layout=True)
 
 ax.plot(
     x,
