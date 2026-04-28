@@ -163,8 +163,8 @@ for xs, ys in zip(sample_x, sample_y):
 
 for i, (xs, pint) in enumerate(zip(sample_x, pixel_integrals)):
     ax.annotate(
-        f"ø={pint:.4f}",
-        (xs, 0),
+        f"{pint:.4f}",
+        (xs, pint),
         textcoords="offset points",
         xytext=(0, -14),
         ha="center",
