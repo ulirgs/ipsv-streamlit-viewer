@@ -6,9 +6,9 @@ from astropy.modeling.models import Gaussian1D
 from scipy.integrate import quad
 from scipy.special import erf
 
-st.set_page_config(page_title="PSF Convolution Viewer", layout="wide")
+st.set_page_config(page_title="PSF with IPSV Test", layout="wide")
 
-st.title("PSF Convolution Viewer")
+st.title("PSF with IPSV Test")
 
 st.sidebar.header("Settings")
 
